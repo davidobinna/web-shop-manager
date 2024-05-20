@@ -111,6 +111,12 @@
     font-weight: bold;
   }
 
+    
+    .clipped-image::before {
+      background-position: left center;
+      transform: translateX(-1%); 
+    }
+
   .background-with-overlay {
     padding: 1rem 2rem; 
   }
